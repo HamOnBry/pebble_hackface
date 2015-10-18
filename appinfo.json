@@ -4,13 +4,20 @@
         ""
     ],
     "companyName": "bhamon@gmail.com",
-    "longName": "test1",
+    "longName": "hackface",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "characterRegex": "[:0-9]",
+                "type": "font",
+                "name": "FONT_HACK_48",
+                "file": "fonts/Hack-Regular.ttf"
+            }
+        ]
     },
     "sdkVersion": "2",
-    "shortName": "test1",
+    "shortName": "hackface",
     "uuid": "37fd2f1a-8f12-48c8-b810-190b8416abec",
     "versionCode": 1,
     "versionLabel": "1.0",
