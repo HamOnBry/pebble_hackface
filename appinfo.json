@@ -29,7 +29,7 @@
             {
                 "characterRegex": "[0-9:A-Za-z ]",
                 "type": "font",
-                "name": "FONT_HACK_BOLD_48",
+                "name": "FONT_COUSINE_BOLD_42",
                 "file": "fonts/Cousine-Bold.ttf"
             }         
         ]
