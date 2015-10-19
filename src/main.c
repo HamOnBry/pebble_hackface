@@ -4,7 +4,7 @@ Window *main_window;
 TextLayer *time_layer;
 TextLayer *date_layer;
 TextLayer *weather_layer;
-GFont *time_font;
+GFont *font_time;
 
 static void update_time() {
   time_t temp = time(NULL);
@@ -23,12 +23,13 @@ static void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
 }
 
 static void main_window_load(Window *window) {
+  font_time = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_HACK_BOLD_42));
   //create time layer
   time_layer = text_layer_create(GRect(0, 52, 144, 65));
   text_layer_set_background_color(time_layer, GColorBlack); //set background to black
   text_layer_set_text_color(time_layer, GColorWhite); //set text to white
   text_layer_set_text_alignment(time_layer, GTextAlignmentCenter); //center time on layer
-  text_layer_set_font(time_layer, fonts_get_system_font(FONT_KEY_ROBOTO_BOLD_SUBSET_49)); //change font
+  text_layer_set_font(time_layer, font_time); //change font
   update_time();
 
   //create date layer
@@ -57,6 +58,7 @@ static void main_window_unload(Window *window) {
 void init(void) {
   tick_timer_service_subscribe(MINUTE_UNIT, tick_handler);
   main_window = window_create();
+  window_set_background_color(main_window, GColorWhite);
   window_set_window_handlers(main_window, (WindowHandlers) {
     .load = main_window_load,
     .unload = main_window_unload
