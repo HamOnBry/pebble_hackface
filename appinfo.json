@@ -9,11 +9,29 @@
     "resources": {
         "media": [
             {
-                "characterRegex": "[:0-9]",
+                "characterRegex": "[0-9:A-Za-z ]",
                 "type": "font",
-                "name": "FONT_HACK_48",
+                "name": "FONT_HACK_REGULAR_42",
                 "file": "fonts/Hack-Regular.ttf"
-            }
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "type": "font",
+                "name": "FONT_HACK_BOLD_42",
+                "file": "fonts/Hack-Bold.ttf"
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "type": "font",
+                "name": "FONT_COUSINE_REGULAR_42",
+                "file": "fonts/Cousine-Regular.ttf"
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "type": "font",
+                "name": "FONT_HACK_BOLD_48",
+                "file": "fonts/Cousine-Bold.ttf"
+            },            
         ]
     },
     "sdkVersion": "2",
