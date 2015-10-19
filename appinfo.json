@@ -31,7 +31,7 @@
                 "type": "font",
                 "name": "FONT_HACK_BOLD_48",
                 "file": "fonts/Cousine-Bold.ttf"
-            },            
+            }         
         ]
     },
     "sdkVersion": "2",
