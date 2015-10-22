@@ -1,7 +1,8 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "location",
+        "configurable"
     ],
     "companyName": "bhamon@gmail.com",
     "longName": "hackface",
@@ -10,28 +11,28 @@
         "media": [
             {
                 "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
+                "file": "fonts/Hack-Regular.ttf",
                 "name": "FONT_HACK_REGULAR_42",
-                "file": "fonts/Hack-Regular.ttf"
+                "type": "font"
             },
             {
                 "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
+                "file": "fonts/Hack-Bold.ttf",
                 "name": "FONT_HACK_BOLD_42",
-                "file": "fonts/Hack-Bold.ttf"
+                "type": "font"
             },
             {
                 "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
-                "name": "FONT_COUSINE_REGULAR_42",
-                "file": "fonts/Cousine-Regular.ttf"
+                "file": "fonts/Cousine-Regular.ttf",
+                "name": "FONT_COUSINE_REGULAR_44",
+                "type": "font"
             },
             {
                 "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
-                "name": "FONT_COUSINE_BOLD_42",
-                "file": "fonts/Cousine-Bold.ttf"
-            }         
+                "file": "fonts/Cousine-Bold.ttf",
+                "name": "FONT_COUSINE_BOLD_44",
+                "type": "font"
+            }
         ]
     },
     "sdkVersion": "2",
