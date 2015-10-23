@@ -43,7 +43,13 @@
                 "type": "font",
                 "name": "FONT_MUNRO_REGULAR_42",
                 "file": "fonts/Munro.ttf"
-            }
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "type": "font",
+                "name": "FONT_MUNRO_REGULAR_22",
+                "file": "fonts/Munro.ttf"
+            }            
         ]
     },
     "sdkVersion": "2",
