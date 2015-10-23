@@ -31,13 +31,13 @@
                 "type": "font",
                 "name": "FONT_COUSINE_BOLD_44",
                 "file": "fonts/Cousine-Bold.ttf"
-            }         
+            },        
             {
                 "characterRegex": "[0-9:A-Za-z ]",
                 "type": "font",
                 "name": "FONT_SILKSCREEN_REGULAR_42",
                 "file": "fonts/slkscr-webfont.ttf"
-            }
+            },
             {
                 "characterRegex": "[0-9:A-Za-z ]",
                 "type": "font",
