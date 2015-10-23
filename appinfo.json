@@ -32,6 +32,18 @@
                 "name": "FONT_COUSINE_BOLD_42",
                 "file": "fonts/Cousine-Bold.ttf"
             }         
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "type": "font",
+                "name": "FONT_SILKSCREEN_REGULAR_42",
+                "file": "fonts/slkscr-webfont.ttf"
+            }
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "type": "font",
+                "name": "FONT_MUNRO_REGULAR_42",
+                "file": "fonts/Munro.ttf"
+            }
         ]
     },
     "sdkVersion": "2",
