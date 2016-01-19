@@ -1,63 +1,68 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "location",
+        "configurable"
     ],
-    "companyName": "bhamon@gmail.com",
-    "longName": "hackface",
+    "companyName": "bryan@geekerrific.com",
+    "longName": "monoface",
     "projectType": "native",
     "resources": {
         "media": [
             {
                 "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
-                "name": "FONT_HACK_REGULAR_42",
-                "file": "fonts/Hack-Regular.ttf"
-            },
-            {
-                "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
-                "name": "FONT_HACK_BOLD_42",
-                "file": "fonts/Hack-Bold.ttf"
-            },
-            {
-                "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
-                "name": "FONT_COUSINE_REGULAR_44",
-                "file": "fonts/Cousine-Regular.ttf"
-            },
-            {
-                "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
-                "name": "FONT_COUSINE_BOLD_44",
-                "file": "fonts/Cousine-Bold.ttf"
-            },        
-            {
-                "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
+                "file": "fonts/slkscr-webfont.ttf",
                 "name": "FONT_SILKSCREEN_REGULAR_42",
-                "file": "fonts/slkscr-webfont.ttf"
+                "type": "font"
             },
             {
                 "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
-                "name": "FONT_MUNRO_REGULAR_42",
-                "file": "fonts/Munro.ttf"
-            },
-            {
-                "characterRegex": "[0-9:A-Za-z ]",
-                "type": "font",
+                "file": "fonts/Munro.ttf",
                 "name": "FONT_MUNRO_REGULAR_22",
-                "file": "fonts/Munro.ttf"
-            }            
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "file": "fonts/Munro.ttf",
+                "name": "FONT_MUNRO_REGULAR_42",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "file": "fonts/Hack-Regular.ttf",
+                "name": "FONT_HACK_REGULAR_42",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "file": "fonts/Hack-Bold.ttf",
+                "name": "FONT_HACK_BOLD_42",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "file": "fonts/Cousine-Regular.ttf",
+                "name": "FONT_COUSINE_REGULAR_44",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:A-Za-z ]",
+                "file": "fonts/Cousine-Bold.ttf",
+                "name": "FONT_COUSINE_BOLD_44",
+                "type": "font"
+            }
         ]
     },
-    "sdkVersion": "2",
-    "shortName": "hackface",
+    "sdkVersion": "3",
+    "shortName": "monoface",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
     "uuid": "37fd2f1a-8f12-48c8-b810-190b8416abec",
-    "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "0.1",
     "watchapp": {
-        "watchface": true
+        "watchface": false
     }
 }
